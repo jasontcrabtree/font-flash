@@ -8,20 +8,5 @@ module.exports = {
   /* Your site config here */
   plugins: [
     'gatsby-plugin-react-helmet',
-    {
-      resolve: 'gatsby-plugin-prefetch-google-fonts',
-      options: {
-        fonts: [
-          {
-            family: 'Playfair Display',
-            variants: ['700'],
-            display: 'block'
-          },
-          {
-            family: 'Lato',
-          },
-        ],
-      },
-    }
   ],
 }
