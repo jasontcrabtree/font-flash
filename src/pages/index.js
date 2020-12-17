@@ -10,7 +10,7 @@ function IndexPage(props) {
       <Helmet>
         <title>Font Flash</title>
       </Helmet>
-      <h1 style={{ fontFamily: 'Playfair Display' }}>
+      <h1>
       Hello World
       </h1>
       <h2>Lato Font Test</h2>
