@@ -1,11 +1,16 @@
-@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700");
+/* @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700"); */
 
 html {
-  font-family: "Playfair Display", sans-serif;
+}
+
+@font-face {
+  font-family: "PlayfairDisplay";
+  font-display: swap;
+  src: url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700");
 }
 
 html {
-  font-display: swap;
+  font-family: "PlayfairDisplay", sans-serif;
   display: grid;
   margin: 6rem auto;
   padding: 1rem;

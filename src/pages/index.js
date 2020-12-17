@@ -1,15 +1,18 @@
 import React from 'react';
+import { Helmet } from 'react-helmet';
 
 import './style.css'
 
-
-
 function IndexPage(props) {
-  console.log(props);
-  return (<>
-  <h1>Hello World</h1>
-  </>)
-  ;
+
+  return (
+  <>
+      <Helmet>
+        <title>Font Flash</title>
+      </Helmet>
+    <h1>Hello World</h1>
+  </>
+  )
 }
 
 export default IndexPage;
