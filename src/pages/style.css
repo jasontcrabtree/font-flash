@@ -1,16 +1,5 @@
-/* @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700"); */
-
 html {
-}
-
-@font-face {
-  font-family: "PlayfairDisplay";
-  font-display: swap;
-  src: url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700");
-}
-
-html {
-  font-family: "PlayfairDisplay", sans-serif;
+  font-family: "Playfair Display", sans-serif;
   display: grid;
   margin: 6rem auto;
   padding: 1rem;
@@ -18,5 +7,10 @@ html {
 }
 
 h1 {
+  font-family: "Playfair Display", sans-serif;
   font-size: 160px;
+}
+
+h2 {
+  font-family: "Lato", serif;
 }
