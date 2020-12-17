@@ -1,5 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Playfair+Display:wght@700&display=block");
+
 html {
-  font-family: "Playfair Display", sans-serif;
+  font-family: "Lato", sans-serif;
   display: grid;
   margin: 6rem auto;
   padding: 1rem;
@@ -9,8 +11,4 @@ html {
 h1 {
   font-family: "Playfair Display", sans-serif;
   font-size: 160px;
-}
-
-h2 {
-  font-family: "Lato", serif;
 }
