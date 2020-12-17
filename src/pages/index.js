@@ -1,5 +1,15 @@
-import React from "react"
+import React from 'react';
 
-export default function Home() {
-  return <div>Hello world!</div>
+import './style.css'
+
+
+
+function IndexPage(props) {
+  console.log(props);
+  return (<>
+  <h1>Hello World</h1>
+  </>)
+  ;
 }
+
+export default IndexPage;

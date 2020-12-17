@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=block");
+
+html {
+  font-family: "Playfair Display", sans-serif;
+}
+
+html {
+  display: grid;
+  margin: 6rem auto;
+  padding: 1rem;
+  max-width: fit-content;
+}
+
+h1 {
+  font-size: 160px;
+}
